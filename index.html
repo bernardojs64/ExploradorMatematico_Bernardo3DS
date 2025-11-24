@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorador Matemático Interativo - Bernardo</title>
+    <title>Explorador Matemático Interativo</title>
     <link rel="stylesheet" href="styles.css">
-   
+    <!-- Removida dependência do Chart.js - agora 100% Canvas puro -->
 </head>
 <body class="dark">
-  
+    <!-- Loading Screen -->
     <div id="loading-screen" class="loading-screen">
         <div class="spinner-container">
             <svg class="infinity-spinner" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@
 
     <!-- Main Layout -->
     <div class="main-layout">
-  
+        <!-- Sidebar -->
         <aside id="sidebar" class="sidebar">
             <nav class="sidebar-nav">
                 <div class="search-container">
@@ -84,7 +84,7 @@
             </nav>
         </aside>
 
-      
+        <!-- Main Content -->
         <main class="main-content">
             <div class="breadcrumb" id="breadcrumb"></div>
             <div id="content-area" class="content-area"></div>
@@ -102,12 +102,12 @@
                 </svg>
                 <p class="gradient-text font-bold">Explorador Matemático Interativo</p>
             </div>
-            <p class="footer-text">Desenvolvido por Bernardo — Projeto de Matemática Educacional CESF</p>
+            <p class="footer-text">Desenvolvido por Bernardo 3DS — Projeto de Matemática Educacional</p>
             <p class="footer-copyright">© 2025 Todos os direitos reservados</p>
         </div>
     </footer>
 
-   
+    <!-- Overlay for mobile -->
     <div id="overlay" class="overlay"></div>
 
     <script src="script.js"></script>
